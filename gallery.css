@@ -1,0 +1,224 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(17, 17, 17);
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 2000px;
+}
+a{
+    border-radius: 32px;
+}
+
+
+
+
+main .button_add_img{
+    background-image: url('img/button_add.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(17, 17, 17);
+    width: 173px; 
+    height: 260px;
+    border: none; 
+    cursor: pointer;
+    position: absolute;
+    margin: 50px;
+    float: left;
+}
+main input{
+    position: absolute;
+    left: 58px;
+    top: 230px;
+    width: 173px; 
+    height: 260px; 
+    cursor: pointer;
+}
+
+
+
+
+
+
+.top-bar {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1d1d1d;
+    overflow: hidden;
+    padding: 30px 0;
+    border: none;
+    border-bottom: 2px solid #313131;
+    height: 110px;
+}
+
+.search{
+    background-color:  rgb(17, 17, 17);
+    border: 2px solid black;
+    border-radius: 43.97px;
+    width: 400px;
+    height: 50px;
+    margin-left: 5%;
+    vertical-align: middle;
+    position: relative;
+    top: 28px;
+    float: left;
+}
+img{
+    float: left;
+    position: relative;
+    top: 8px;
+    left: 10px;
+}
+.search input{
+    background-color: #ffffff00;
+    color: white;
+    font-size: 1em;
+    border: none;
+    margin-top: 3.5%;
+    margin-left: 30%;
+    width: 320px;
+    position: relative;
+    top: -36px;
+    left: -55px;
+    float: left;
+   
+}
+.search input:focus {
+    outline: none;
+}
+
+.logo h1{
+    float: left;
+    color: #f2f2f2;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4em;
+    position: relative;
+    left: 200px;
+    top: -40px;
+    letter-spacing: 35px;
+    font-weight:initial;
+}
+.logo img{
+    position: relative;
+    left: -160px;
+    top: 20px;
+    float: left;
+}
+
+
+.right-bar{
+    color: rgb(255, 255, 255);
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    float: right;
+    top: 0;
+    right: 0;
+    background-color: #1d1d1d;
+    overflow: hidden;
+    border: none;
+    border-left: 2px solid #313131;
+
+}
+.user_all_info{
+    height: 160px;
+
+    border-bottom: 2px solid #313131;
+}
+.online{
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+}
+.online img{
+    position: relative;
+    left: 83px;
+    top: 0px;
+}
+.user{
+    height: 55px;
+
+}
+.user img{
+    float: left;
+    left: 10px;
+}
+.user span{
+    display: block;
+    float: left;
+    position: relative;
+    right: -20px;
+    top: 11px;
+    margin-left: 5px;
+    text-align: center;
+}
+.info{
+    float: left;
+    position: relative;
+    font-size: 14px;
+    margin: 0px 0px 0px 15px;
+    padding: 0px 0px 10px 20px;
+    left: -25px;
+    width: 250px;
+
+}
+
+
+.buttons ul{
+    float: left;
+    list-style: none;
+    text-align: left;
+    font-size: 24px;
+    position: relative;
+    left: -20px;
+}
+.buttons li{
+    background-color: #ae445a;
+    margin: 42px 0px 42px 0px;
+    border-radius: 12px;
+    width: 200px;
+    height: 52px;
+    padding-left: 14px;
+    cursor: pointer;
+}
+.buttons li:hover{
+    background-color: #8b3849;
+}
+.buttons li a{
+    color: #f2f2f2;
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+}
+.buttons li img{
+    position: relative;
+    left: 0;
+    top: 5px;
+    bottom: 30px;
+    margin-right: 14px;
+}
+
+
+.buttons button{
+    position: relative;
+    bottom: -200px;
+    left: 80px;
+    color: #f2f2f2;
+    background-color: #1d1d1d;
+    border: none;
+    cursor: pointer;
+}
+.buttons button img{
+    float: right;
+    position: relative;
+    top: -2px;
+}
+.buttons button p{
+    font-size: 28px;
+}
+.buttons button a{
+    color: #f2f2f2;
+    text-decoration: none;
+}
