@@ -22,6 +22,7 @@ a{
     top: 0;
     left: 0;
     width: 100%;
+    height: 100px;
     background-color: rgb(17, 17, 17);
     color: #fff;
     overflow: hidden;
@@ -48,9 +49,9 @@ a{
     color: black;
 }
 .logotyp {
-    position: relative;
-    left: -485px;
-    top: 4px;
+position: relative;
+    left: -340px;
+    top: 5px;
 }
 .top-bar img{
     height: 62px;
@@ -59,7 +60,8 @@ a{
 .SLtitle {
     font-size: 4em; 
     margin-left: 10px;
-    letter-spacing: 60px;
+    letter-spacing: 30px;
+    word-spacing: 10px;
 }
 .MB{
     background-color: #ae445a;
